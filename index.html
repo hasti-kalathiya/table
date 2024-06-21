@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .clm {
+            float: left;
+            width: 32.3%;
+            padding: 8px;
+        }
+
+        .price {
+            border: 1px solid lightgray;
+            margin: 0;
+            padding: 0;
+            transition: 0.3s;
+            list-style: none;
+        }
+
+        .header {
+            background-color: black;
+            color: white;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        li {
+            text-align: center;
+            border-bottom: 1px solid lightgray;
+            padding: 20px;
+        }
+
+        .grey {
+            background-color: lightgray;
+            font-size: 20px;
+        }
+        .pink{
+            background-color: pink;
+            font-size: 20px;
+        }
+
+        .button {
+            background-color: green;
+            color: white;
+            font-size: 18px;
+            padding: 10px 25px;
+            text-decoration: none;
+        }
+        .price:hover{
+            box-shadow:  5px 5px 5px rgb(116, 115, 116);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>purchase table</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;"><u>Responsive Pricing Table</u></h1>
+    <p style="text-align: center;">Resize the browser window to see the effect.</p>
+    <div class="clm">
+        <ul class="price">
+            <li class="header">Basic</li>
+            <li class="grey">$ 9.99 / year</li>
+            <li>10GB storeg</li>
+            <li>10 email</li>
+            <li>10 dimains</li>
+            <li>1GB Bandwidth</li>
+            <li><a href="#" class="button">Sign up</a></li>
+        </ul>
+    </div>
+    <div class="clm">
+        <ul class="price">
+            <li class="header">pro</li>
+            <li class="pink">$ 24.99 / year</li>
+            <li>25GB storeg</li>
+            <li>25 email</li>
+            <li>25 dimains</li>
+            <li>2GB Bandwidth</li>
+            <li><a href="#" class="button">Sign up</a></li>
+        </ul>
+    </div>
+    <div class="clm">
+        <ul class="price">
+            <li class="header">premium</li>
+            <li class="grey">$ 49.99 / year</li>
+            <li>50GB storeg</li>
+            <li>50 email</li>
+            <li>50 dimains</li>
+            <li>5GB Bandwidth</li>
+            <li><a href="#" class="button">Sign up</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
